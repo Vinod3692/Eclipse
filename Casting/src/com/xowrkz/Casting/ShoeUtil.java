@@ -16,6 +16,7 @@ public class ShoeUtil {
 			if(shoe instanceof NikeShoe)
 			{
 				NikeShoe nike=(NikeShoe)shoe;
+				nike.printInfo();
 				System.out.println("Creating casting for nike shoe");
 			}
 		}

@@ -12,7 +12,7 @@ public class NikeShoe extends Shoe {
 		this.size=size;
 		this.color=color;
 	}
-	void printInfoo()
+	void printInfo()
 	{
 		System.out.println("Invoking method in Nikeshoe");
 		System.out.println("Nike shoe ceo="+this.ceo);
